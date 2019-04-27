@@ -32,4 +32,5 @@ func (this *SessionController) DeleteSessionData() {
 	this.DelSession("name")
 	resp["error"] = 0
 	resp["errmsg"] = "ok"
+
 }

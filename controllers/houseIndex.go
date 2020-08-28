@@ -16,6 +16,6 @@ func (this *HouseIndexController) RetData(resp map[string]interface{}) {
 func (this *HouseIndexController) GethouseIndex() {
 	resp := make(map[string]interface{})
 	resp["error"] = 0
-	resp["errmsg"] = "查询成功"
+	resp["errmsg"] = "查询成功!"
 	this.RetData(resp)
 }
